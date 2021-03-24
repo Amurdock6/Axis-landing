@@ -97,13 +97,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 ::-moz-selection {
-    color: #1106CC;
-    background: #FFFF99;
+    background-color: #b18346;
+		color: #000000;
 }
 
 ::selection {
-    color: #1106CC;
-    background: #FFFF99;
+		background-color: #b18346;
+		color: #000000;
 }
 
 .nopadding {
@@ -1516,9 +1516,10 @@ label {
 	font-family: Work Sans;
 	font-size: 14px;
 	margin-top: 20px;
-	position: absolute;
-    bottom: 20px;
-    right: 30%;
+	position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-social {
@@ -1560,6 +1561,37 @@ label {
 --------------------- Media --------------------------
 ------------------------------- Queries --------------
 -----------------------------------------------------*/
+@media only screen and (min-width: 2160px)  {
+	
+	.right-section{
+        position: relative;
+        width: 100%;
+		overflow-y: hidden;
+	}
+
+	.intro .intro-text h1 {
+		font-size: 42px;
+		line-height: 1.1;
+	}
+
+	.intro .intro-text p {
+		font-size: 23px;
+	}
+
+	.intro .intro-text p1 {
+		font-size: 23px;
+	}
+
+	.footer-personal {
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+
+	.footer-personal a {
+		font-size: 14px;
+		padding: 10px;
+	}
+}
 
 @media only screen and (min-width: 767px) {
 	.logo {
