@@ -780,7 +780,8 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 0px;
 	line-height: 1.5;
 	margin: 0 0 20px 0;
-	padding-top: 50px;
+	padding-top: 55px;
+    padding-bottom: 50px;
 }
 
 .intro .intro-text p a{
@@ -796,7 +797,6 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 0px;
 	line-height: 1.5;
 	margin: 0 0 20px 0;
-	padding-top: 100px;
 }
 
 .intro .intro-text p1 a {
@@ -1561,35 +1561,61 @@ label {
 --------------------- Media --------------------------
 ------------------------------- Queries --------------
 -----------------------------------------------------*/
-@media only screen and (min-width: 2160px)  {
-	
-	.right-section{
-        position: relative;
-        width: 100%;
-		overflow-y: hidden;
+@media (min-height: 1320px) and (max-height: 1500px){
+	.main-logo img {
+		width: 350px;
+		height: 350px; 
 	}
 
-	.intro .intro-text h1 {
-		font-size: 42px;
-		line-height: 1.1;
+	.intro .intro-text h1{
+		font-size: 53px;
+		padding-top: 20px;
 	}
 
-	.intro .intro-text p {
-		font-size: 23px;
+	.intro .intro-text p{
+		font-size: 38px;
 	}
 
-	.intro .intro-text p1 {
-		font-size: 23px;
+	.intro .intro-text p1{
+		font-size: 38px;
+	}
+  
+  .footer-credits {
+	position: absolute;
+	font-size: 25px;
+    top: 1230px;
+    right: 35%;
+  }
+}
+
+@media (min-height: 1079px) and (max-height: 1100px){
+	.main-logo img {
+		width: 200px;
+		height: 200px; 
 	}
 
-	.footer-personal {
-		margin-top: 50px;
-		margin-bottom: 20px;
+	.intro .intro-text h1{
+		font-size: 45px;
 	}
 
-	.footer-personal a {
-		font-size: 14px;
-		padding: 10px;
+	.intro .intro-text p{
+		font-size: 35px;
+	}
+
+	.intro .intro-text p1{
+		font-size: 35px;
+	}
+  
+  .footer-credits {
+	position: absolute;
+    top: 1000px;
+    right: 38%;
+  }
+}
+
+@media (min-height: 710px) and (max-height: 800px){
+	.main-logo{
+		padding: 50px 0 0 0;
 	}
 }
 
@@ -1624,7 +1650,16 @@ label {
 
 }
 
-	@media only screen and (max-width : 801px) {
+@media only screen and (max-width: 568px){
+	.intro .intro-text p a, .intro .intro-text p1 a{
+		font-size: 21px;
+	}
+
+	.footer-credits{
+		top: 0px;
+	}
+}
+	@media only screen and (max-width: 801px) {
 
      .right-section{
         position: relative;
@@ -1632,7 +1667,7 @@ label {
     }
 
 		.main-logo {
-			padding: 100px 0 0 0;
+			padding: 40px 0 0 0;
 			text-align: center;
 		}
 
@@ -1669,7 +1704,7 @@ label {
 		}
 
 		.intro .intro-text p {
-			font-size: 23px;
+			font-size: 25px;
 		}
 
 		.intro .intro-text p1 {
@@ -1693,6 +1728,45 @@ label {
    .right-section{
       -webkit-overflow-scrolling: touch;
   }
+
+  .main-logo{
+	padding: 10px 0 0 0;
+ }
+
+ .intro .intro-text p{
+	 font-size: 22px;
+ }
+
+ .intro .intro-text p a {
+	font-size: 20px;
+ }
+
+.intro .intro-text p1 {
+	font-size: 23px;
+}
+
+.intro .intro-text p1 a {
+	font-size: 20px;
+ }
+
+ .footer-credits{
+	font-size: 12px;
+	position: relative;
+    top: 16px;
+    display: flex;
+    justify-content: center;
+ }
+
+}
+
+@media (min-width: 735px) and (max-width: 737px) and (orientation: landscape) {
+	.footer-credits{
+		font-size: 12px;
+		position: relative;
+		top: 0px;
+		display: flex;
+		justify-content: center;
+	 }
 }
 
  @media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
@@ -1766,17 +1840,11 @@ label {
 
 
 
-@media screen and (min-width: 400px) and (max-width: 600px) {
-
- .subscribe-form .mail {
-   padding: 0 30px 0 20px;
-   border-radius: 5px 0 0 5px;
+@media screen and (min-width: 400px) and (max-width: 601px) {
+ .main-logo{
+	padding: 10px 0 0 0;
  }
 
- .subscribe-form .submit-button {
-   padding: 0 5px 0 5px;
-   border-radius: 0 5px 5px 0;
- }
 }
 
 
@@ -1801,6 +1869,58 @@ label {
    border-radius: 0 5px 5px 0;
 	 margin-top: 15px;
  }
+}
+
+@media (min-width: 370px) and (max-width: 380px){
+	.footer-credits{
+		position: relative;
+		top: 0px;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 1020px) and (max-width: 1040px) and (orientation: portrait){
+	.main-logo{
+		padding: 100px 0 0 0;
+	 }
+
+	 .main-logo img {
+		width: 280px;
+		height: 280px;
+	 }
+	
+	 .intro .intro-text p{
+		 font-size: 35px;
+	 }
+	
+	 .intro .intro-text p a {
+		font-size: 32px;
+	 }
+	
+	.intro .intro-text p1 {
+		font-size: 35px;
+	}
+	
+	.intro .intro-text p1 a {
+		font-size: 32px;
+	 }
+	
+	 .footer-credits{
+		position: absolute;
+		font-size: 15px;
+		top: 1310px;
+		right: 30%;
+	 }
+}
+
+@media (min-height: 1022px) and (max-height: 1026px){
+	.footer-credits{
+		position: absolute;
+		font-size: 15px;
+		top: 950px;
+		right: 35%;
+	 }
 }
 
 
