@@ -2063,6 +2063,11 @@ label {
 	 }
 }
 
+@media (min-height: 599px) and (max-height: 602px){
+	.footer-credits{
+		top: 550px;
+	}
+}
 
 /* --------------------------------------------------
 ------- Media Queries for Split Layout Ends ---------
