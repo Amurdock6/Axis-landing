@@ -2069,6 +2069,41 @@ label {
 	}
 }
 
+@media (min-width: 1279px) and (max-width: 1281px){
+	.intro .intro-text h1{
+		font-size: 39px;
+		margin-bottom: -30px;
+	}
+
+	.intro .intro-text p{
+		font-size: 27px;
+		margin-bottom: -30px;
+	   }
+
+
+	.intro .intro-text p a {
+	   font-size: 28px;
+	   
+	}
+   
+   .intro .intro-text p1 {
+	   font-size: 27px;
+   }
+   
+   .intro .intro-text p1 a {
+	   font-size: 28px;
+	}
+
+	.footer-credits{
+		top: 555px;
+	}
+}
+
+@media (min-height: 669px) and (max-height: 671px){
+	.footer-credits{
+		top: 614px;
+	}
+}
 /* --------------------------------------------------
 ------- Media Queries for Split Layout Ends ---------
 ---------------------------------------------------*/
