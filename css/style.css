@@ -2024,14 +2024,18 @@ label {
 	
 	 .intro .intro-text h1{
 		 font-size: 39px;
+		 margin-bottom: -30px;
 	 }
 
 	 .intro .intro-text p{
 		 font-size: 30px;
-	 }
-	
+		 margin-bottom: -30px;
+		}
+
+
 	 .intro .intro-text p a {
 		font-size: 32px;
+		
 	 }
 	
 	.intro .intro-text p1 {
@@ -2045,7 +2049,7 @@ label {
 	 .footer-credits{
 		position: absolute;
 		font-size: 15px;
-		top: 700px;
+		top: 600px;
 		right: 35%;
 	 }
 }
