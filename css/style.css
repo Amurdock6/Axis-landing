@@ -1617,6 +1617,10 @@ label {
 	.main-logo{
 		padding: 50px 0 0 0;
 	}
+
+	.footer-credits{
+		top: 25px;
+	}
 }
 
 @media only screen and (min-width: 767px) {
@@ -1667,7 +1671,7 @@ label {
     }
 
 		.main-logo {
-			padding: 40px 0 0 0;
+			padding: 70px 0 0 0;
 			text-align: center;
 		}
 
@@ -1878,7 +1882,92 @@ label {
 		display: flex;
 		justify-content: center;
 	}
+
+	 .main-logo img {
+		width: 175px;
+		height: 175px;
+	 }
+	
+	 .intro {
+		padding-top: 20px;
+	 }
+
+	 .intro .intro-text h1{
+		 font-size: 30px;
+	 }
+
+	 .intro .intro-text p{
+		font-size: 27px;
+		margin-top: -30px;
+		margin-bottom: -10px;
+	 }
+	
+	 .intro .intro-text p a {
+		font-size: 25px;
+	 }
+	
+	.intro .intro-text p1 {
+		font-size: 27px;
+	}
+	
+	.intro .intro-text p1 a {
+		font-size: 25px;
+	 }
+	
+	 .footer-credits{
+		position: absolute;
+		font-size: 12px;
+		top: 740px;
+		right: 29%;
+	 }
 }
+
+@media (min-width: 310px) and (max-width: 361px){
+	.main-logo img{
+		width: 150px;
+		height: 150px;
+	}
+
+	.intro .intro-text h1{
+		font-size: 26px;
+		margin-top: -20px;
+	}
+
+	.intro .intro-text p{
+		margin-top: -30px;
+    	margin-bottom: -30px;
+    	font-size: 22px;
+	}
+	
+	.intro .intro-text p1 {
+		font-size: 22px;
+	}
+	
+	.footer-credits{
+		position: absolute;
+		font-size: 10px;
+		top: 580px;
+		right: 30%;
+	 }
+}
+
+@media (min-height: 822px) and (max-height: 824px){
+	.main-logo{
+		padding: 60px 0 0 0;
+	}
+}
+
+
+@media (min-height: 567px) and (max-height: 569px){
+	.main-logo{
+		padding: 50px 0 0 0;
+	}
+	
+	.footer-credits{
+		top: 524px;
+	}
+}
+
 
 @media (min-width: 1020px) and (max-width: 1040px) and (orientation: portrait){
 	.main-logo{
@@ -1920,6 +2009,53 @@ label {
 		font-size: 15px;
 		top: 950px;
 		right: 35%;
+	 }
+}
+
+@media (min-width: 1200px) and (max-width: 1466px){
+	.main-logo{
+		padding: 20px 0 0 0;
+	 }
+
+	 .main-logo img {
+		width: 200px;
+		height: 200px;
+	 }
+	
+	 .intro .intro-text h1{
+		 font-size: 39px;
+	 }
+
+	 .intro .intro-text p{
+		 font-size: 30px;
+	 }
+	
+	 .intro .intro-text p a {
+		font-size: 32px;
+	 }
+	
+	.intro .intro-text p1 {
+		font-size: 30px;
+	}
+	
+	.intro .intro-text p1 a {
+		font-size: 32px;
+	 }
+	
+	 .footer-credits{
+		position: absolute;
+		font-size: 15px;
+		top: 700px;
+		right: 35%;
+	 }
+}
+
+@media (min-height: 666px) and (max-height: 668px){
+	.footer-credits{
+		position: absolute;
+		font-size: 11px;
+		top: 610px;
+		right: 32%;
 	 }
 }
 
