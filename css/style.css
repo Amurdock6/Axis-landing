@@ -2104,6 +2104,77 @@ label {
 		top: 614px;
 	}
 }
+
+@media (min-height: 552px) and (max-height: 554px){
+	.main-logo{
+		padding: 13px 0 0 0;
+  	    text-align: center;
+	}
+	.intro .intro-text h1{
+		margin-top: -10px;
+		padding-bottom: 10px;
+	}
+    
+	.intro .intro-text p{
+		font-size: 25px;
+		margin-bottom: -30px;
+		margin-top: -50px;
+	   }
+
+
+	.intro .intro-text p a {
+	   font-size: 23px;
+	   
+	}
+   
+   .intro .intro-text p1 {
+	   font-size: 25px;
+   }
+   
+   .intro .intro-text p1 a {
+	   font-size: 23px;
+	}
+
+	.footer-credits{
+		top: 497px;
+	}
+}
+
+@media (min-height: 633px) and (max-height: 635px){
+	.main-logo{
+		padding: 40px 0 0 0;
+  	    text-align: center;
+	}
+	.intro .intro-text h1{
+		margin-top: -10px;
+		padding-bottom: 10px;
+	}
+    
+	.intro .intro-text p{
+		font-size: 25px;
+		margin-bottom: -30px;
+		margin-top: -50px;
+	   }
+
+
+	.intro .intro-text p a {
+	   font-size: 23px;
+	   
+	}
+   
+   .intro .intro-text p1 {
+	   font-size: 25px;
+   }
+   
+   .intro .intro-text p1 a {
+	   font-size: 23px;
+	}
+
+	.footer-credits{
+		top: 580px;
+	}
+}
+
 /* --------------------------------------------------
 ------- Media Queries for Split Layout Ends ---------
 ---------------------------------------------------*/
