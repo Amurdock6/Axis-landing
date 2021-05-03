@@ -1663,7 +1663,8 @@ label {
 		top: 0px;
 	}
 }
-	@media only screen and (max-width: 801px) {
+
+@media only screen and (max-width: 801px) {
 
      .right-section{
         position: relative;
@@ -1946,7 +1947,7 @@ label {
 	.footer-credits{
 		position: absolute;
 		font-size: 10px;
-		top: 580px;
+		top: 690px;
 		right: 30%;
 	 }
 }
@@ -1964,7 +1965,7 @@ label {
 	}
 	
 	.footer-credits{
-		top: 524px;
+		top: 568px;
 	}
 }
 
@@ -2049,7 +2050,7 @@ label {
 	 .footer-credits{
 		position: absolute;
 		font-size: 15px;
-		top: 600px;
+		top: 700px;
 		right: 35%;
 	 }
 }
@@ -2058,7 +2059,7 @@ label {
 	.footer-credits{
 		position: absolute;
 		font-size: 11px;
-		top: 610px;
+		top: 690px;
 		right: 32%;
 	 }
 }
